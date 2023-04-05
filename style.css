@@ -48,20 +48,11 @@ nav ul {
     color: #e5e7eb;
 }
 
-
 main {
     flex: 1;
     display: flex;
     flex-direction: column;
 }
-
-/* main div {
-    flex: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-*/
 
 main div {
     padding: 18px;
@@ -98,7 +89,7 @@ main div {
     border-radius: 10px;
     font-size: 16px;
     padding: 15px 32px;
-    border: none;
+    border: 2px white solid;
 }
 
 .courses {
@@ -131,6 +122,12 @@ main div {
     border-radius: 10px;
 }
 
+.course-description {
+    font-size: 18px;
+    color: #1f2937;
+    font-weight: 800;
+}
+
 .quote {
     background-color: #e5e7eb;
     display: flex;
@@ -158,6 +155,28 @@ main div {
     font-size: 20px;
     font-weight: 900;
     color: #1f2937;
+}
+
+.signup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup-container {
+    background-color: #3882f6;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 700px;
+    border-radius: 20px;
+    padding: 10px 40px;
+}
+
+.signup-header {
+    padding: 0;
+    margin: 0;
 }
 
 footer {
