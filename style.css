@@ -30,6 +30,7 @@ nav ul {
 .logo {
     font-size: 24px;
     color: #f9faf8;
+    font-weight: 900;
     margin-left: 15px;
     display: flex;
     align-items: center;
@@ -54,15 +55,50 @@ main {
     flex-direction: column;
 }
 
-main div {
+/* main div {
     flex: 1;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+*/
+
+main div {
+    padding: 18px;
+}
 
 .about {
     background-color: #f6f7f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    color: #1f2937;
+}
+
+#about-image {
+    height: 300px;
+    width: auto;
+    border-radius: 5px;
+}
+
+.about-header {
+    font-weight: 900;
+    font-size: 40px;
+}
+
+.about-paragraph {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.signup-button {
+    background-color: #3882f6;
+    color: white;
+    border-radius: 10px;
+    font-size: 16px;
+    padding: 15px 32px;
+    border: none;
 }
 
 .quote {
