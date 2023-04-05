@@ -101,8 +101,63 @@ main div {
     border: none;
 }
 
+.courses {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.courses-header {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+
+.courses-container {
+    display: flex;
+    gap: 15px;
+}
+
+.items {
+    text-align: center;
+}
+
+.course-images {
+    width: 200px;
+    height: 200px;
+    border: 2px #e5e7eb solid;
+    border-radius: 10px;
+}
+
 .quote {
     background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.quote-content, .author {
+    width: 70%;
+}
+
+.quote-content {
+    text-align: center;
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 100;
+    overflow-wrap: break-word;
+}
+
+.author {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 20px;
+    font-weight: 900;
+    color: #1f2937;
 }
 
 footer {
